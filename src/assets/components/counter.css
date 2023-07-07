@@ -1,0 +1,27 @@
+.counter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .counter-display {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .start-button,
+  .stop-button {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  
+ .start-button:hover,
+.stop-button:hover {
+  background-color: #0056b3;
+}
